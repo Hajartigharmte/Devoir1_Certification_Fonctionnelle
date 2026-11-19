@@ -31,20 +31,21 @@ Projet académique de fin d'études permettant d'émettre, de vérifier et de r�
 ├── package.json                # Configuration et dépendances npm
 ├── package-lock.json           # Arborescence exacte des packages
 └── README.md                   # Documentation du projet
+---
 
-⚙️ Guide d'Installation et Exécution
-Installer les dépendances : npm install
+## ⚙️ Guide d'Installation et Exécution
+-**Installer les dépendances :**  npm install
 
-Lancer le nœud local Hardhat : npx hardhat node
+-**Lancer le nœud local Hardhat :** npx hardhat node
 
-Déployer le Smart Contract (dans un second terminal) : npx hardhat run scripts/deploy.js --network localhost
+-**Déployer le Smart Contract (dans un second terminal) :** npx hardhat run scripts/deploy.js --network localhost
 
-Lancer les tests unitaires : npx hardhat test
+-**Lancer les tests unitaires : ** npx hardhat test
 
-Lancer l'interface Web : Ouvrir le fichier frontend/index.html via Live Server et connecter MetaMask au réseau local (Chain ID: 31337).
+-**Lancer l'interface Web :** Ouvrir le fichier frontend/index.html via Live Server et connecter MetaMask au réseau local (Chain ID: 31337).
 
-📌 Informations Clés du Déploiement
-Adresse du Contrat : 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+##📌 Informations Clés du Déploiement
+-**Adresse du Contrat :** 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
 
-Adresse Admin (Constructeur) : 0x4f848c26204Eb3Ecbabe556a3A645F1f7a7e41fA
+-**Adresse Admin (Constructeur) : ** 0x4f848c26204Eb3Ecbabe556a3A645F1f7a7e41fA
 
